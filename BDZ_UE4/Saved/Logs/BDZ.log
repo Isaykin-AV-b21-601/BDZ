@@ -2217,3 +2217,74 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.06.16-20.59.25:564][343]AssetCheck: New page: Asset Save: multiple assets
 [2024.06.16-20.59.25:564][343]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/L_Main_level_BuiltData.L_Main_level_BuiltData
 [2024.06.16-20.59.25:564][343]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/L_Main_level.L_Main_level
+[2024.06.16-21.01.59:061][469]LogTemp: Repeating last play command: Selected Viewport
+[2024.06.16-21.01.59:069][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.16-21.01.59:069][469]PIE: New page: PIE session: L_Main_level (17 июн. 2024 г., 03:01:59)
+[2024.06.16-21.01.59:069][469]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_L_Main_level
+[2024.06.16-21.01.59:083][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014327s)
+[2024.06.16-21.01.59:085][469]LogAIModule: Creating AISystem for world L_Main_level
+[2024.06.16-21.01.59:086][469]LogPlayLevel: PIE: World Init took: (0.002213s)
+[2024.06.16-21.01.59:086][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/L_Main_level.L_Main_level to /Game/FirstPersonBP/Maps/UEDPIE_0_L_Main_level.L_Main_level (0.016791s)
+[2024.06.16-21.01.59:136][469]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2024.06.16-21.01.59:139][469]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.06.16-21.01.59:139][469]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.16-21.01.59:139][469]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.16-21.01.59:139][469]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.16-21.01.59:139][469]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.16-21.01.59:139][469]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.16-21.01.59:139][469]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.16-21.01.59:139][469]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.16-21.01.59:139][469]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.16-21.01.59:140][469]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.16-21.01.59:140][469]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.16-21.01.59:140][469]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.16-21.01.59:140][469]LogAudioMixer: Display: Initializing audio mixer.
+[2024.06.16-21.01.59:148][469]LogAudioMixer: Display: 0: FrontLeft
+[2024.06.16-21.01.59:148][469]LogAudioMixer: Display: 1: FrontRight
+[2024.06.16-21.01.59:291][469]LogAudioMixer: Display: Using Audio Device Наушники (Realtek(R) Audio)
+[2024.06.16-21.01.59:291][469]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.16-21.01.59:291][469]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.16-21.01.59:291][469]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.16-21.01.59:292][469]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.06.16-21.01.59:292][469]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.06.16-21.01.59:292][469]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.06.16-21.01.59:293][469]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.06.16-21.01.59:293][469]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.06.16-21.01.59:293][469]LogInit: FAudioDevice initialized.
+[2024.06.16-21.01.59:293][469]LogAudio: Display: Audio Device (ID: 21) registered with world 'L_Main_level'.
+[2024.06.16-21.01.59:300][469]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2024.06.16-21.01.59:303][469]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_L_Main_level.L_Main_level up for play (max tick rate 60) at 2024.06.17-00.01.59
+[2024.06.16-21.01.59:303][469]LogWorld: Bringing up level for play took: 0.002189
+[2024.06.16-21.01.59:303][469]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2024.06.16-21.01.59:306][469]PIE: Server logged in
+[2024.06.16-21.01.59:307][469]PIE: Play in editor total start time 0,24 seconds.
+[2024.06.16-21.02.02:201][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.16-21.02.02:201][640]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_L_Main_level
+[2024.06.16-21.02.02:201][640]LogWorld: UWorld::CleanupWorld for L_Main_level, bSessionEnded=true, bCleanupResources=true
+[2024.06.16-21.02.02:202][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.16-21.02.02:214][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.16-21.02.02:228][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.16-21.02.02:270][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.16-21.02.02:270][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.06.16-21.02.02:271][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.06.16-21.02.02:282][640]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2024.06.16-21.02.02:330][641]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.06.16-21.02.03:301][698]Cmd: SELECT NONE
+[2024.06.16-21.02.47:172][921]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.06.16-21.02.47:172][921]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.06.16-21.02.47:503][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/L_Main_level" FILE="../../../../../GitHub/UE4/BDZ/BDZ_UE4/Content/FirstPersonBP/Maps/L_Main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.16-21.02.47:544][921]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2024.06.16-21.02.47:567][921]LogSavePackage: Moving '../../../../../GitHub/UE4/BDZ/BDZ_UE4/Saved/L_Main_level2E66F1D440A8AA503A30BF98E4AE4E41.tmp' to '../../../../../GitHub/UE4/BDZ/BDZ_UE4/Content/FirstPersonBP/Maps/L_Main_level.umap'
+[2024.06.16-21.02.47:643][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/L_Main_level_BuiltData" FILE="../../../../../GitHub/UE4/BDZ/BDZ_UE4/Content/FirstPersonBP/Maps/L_Main_level_BuiltData.uasset" SILENT=true
+[2024.06.16-21.02.47:969][921]LogSavePackage: Moving '../../../../../GitHub/UE4/BDZ/BDZ_UE4/Saved/L_Main_level_BuiltDataB01C190C44ED13F2049E09B094CEA686.tmp' to '../../../../../GitHub/UE4/BDZ/BDZ_UE4/Content/FirstPersonBP/Maps/L_Main_level_BuiltData.uasset'
+[2024.06.16-21.02.48:025][921]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.16-21.02.48:025][921]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/L_Main_level_BuiltData.L_Main_level_BuiltData
+[2024.06.16-21.02.48:025][921]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/L_Main_level.L_Main_level
+[2024.06.16-21.03.42:533][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/L_Main_level" FILE="../../../../../GitHub/UE4/BDZ/BDZ_UE4/Content/FirstPersonBP/Maps/L_Main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.16-21.03.42:575][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.06.16-21.03.42:599][269]LogSavePackage: Moving '../../../../../GitHub/UE4/BDZ/BDZ_UE4/Saved/L_Main_levelC926BE12448D720271B138B15302BABD.tmp' to '../../../../../GitHub/UE4/BDZ/BDZ_UE4/Content/FirstPersonBP/Maps/L_Main_level.umap'
+[2024.06.16-21.03.42:675][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/L_Main_level_BuiltData" FILE="../../../../../GitHub/UE4/BDZ/BDZ_UE4/Content/FirstPersonBP/Maps/L_Main_level_BuiltData.uasset" SILENT=true
+[2024.06.16-21.03.42:977][269]LogSavePackage: Moving '../../../../../GitHub/UE4/BDZ/BDZ_UE4/Saved/L_Main_level_BuiltData6CBE57254CEAA2EBC7AEA2A5755692FC.tmp' to '../../../../../GitHub/UE4/BDZ/BDZ_UE4/Content/FirstPersonBP/Maps/L_Main_level_BuiltData.uasset'
+[2024.06.16-21.03.43:037][269]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.16-21.03.43:037][269]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/L_Main_level_BuiltData.L_Main_level_BuiltData
+[2024.06.16-21.03.43:037][269]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/L_Main_level.L_Main_level
